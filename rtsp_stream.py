@@ -8,7 +8,7 @@ frame_width = 640
 frame_height = 480
 fps = 30
 
-# Open webcam
+# Open webcamamera
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, frame_width)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frame_height)
