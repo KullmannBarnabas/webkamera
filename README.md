@@ -19,7 +19,7 @@ Ez a projekt egy RTSP streamet hoz létre egy webkamera segítségével, és tov
 
 ### Használat
 
-1. Futtasd a [rtsp_stream.py](http://_vscodecontentref_/0) fájlt:
+1. Futtasd a [rtsp_stream.py] fájlt:
     ```sh
     python rtsp_stream.py
     ```
@@ -28,13 +28,13 @@ Ez a projekt egy RTSP streamet hoz létre egy webkamera segítségével, és tov
 
 ### Konfiguráció
 
-A következő konfigurációs változókat módosíthatod a [rtsp_stream.py](http://_vscodecontentref_/1) fájlban:
+A következő konfigurációs változókat módosíthatod a [rtsp_stream.py] fájlban:
 
-- [rtsp_server_url](http://_vscodecontentref_/2): Az RTSP szerver URL-je.
-- [ffmpeg_path](http://_vscodecontentref_/3): Az FFmpeg futtatható fájl elérési útja.
-- [frame_width](http://_vscodecontentref_/4): A videó szélessége.
-- [frame_height](http://_vscodecontentref_/5): A videó magassága.
-- [fps](http://_vscodecontentref_/6): A videó képkockasebessége.
+- [rtsp_server_url]: Az RTSP szerver URL-je.
+- [ffmpeg_path]: Az FFmpeg futtatható fájl elérési útja.
+- [frame_width]: A videó szélessége.
+- [frame_height]: A videó magassága.
+- [fps]: A videó képkockasebessége.
 
 ### Hibakeresés
 
@@ -44,7 +44,3 @@ A következő konfigurációs változókat módosíthatod a [rtsp_stream.py](htt
 ### Leállítás
 
 A streamelés leállításához nyomj meg egy `Ctrl+C` kombinációt a terminálban. A script automatikusan felszabadítja a webkamerát és leállítja az FFmpeg folyamatot.
-
-### Licenc
-
-Ez a projekt szabadon használható és módosítható.
